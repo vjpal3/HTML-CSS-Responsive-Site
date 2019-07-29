@@ -1,0 +1,167 @@
+body {
+    font-family: Arial;
+}
+
+.row {
+    margin-right: 0;
+}
+
+.navbar li {
+    padding: 3px;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar a:hover {
+    color: #49C2F0;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+a.dropdown-item  {
+   color: #343A40;
+
+}
+
+.fa.fa-navicon {
+  color: white;
+  border: none;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.top-section {
+    background: url('/img/financial-planning-near-me-opt.jpg') no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+ .container-fluid {
+     padding: 0;
+ }
+
+
+ .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 300px;
+}
+
+.landing-inner {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+
+    text-align: center;
+}
+
+.h4-hero {
+    color: #49C2F0;
+    font-size: 1.2em;
+    font-family: Georgia;
+}
+
+.subscribe {
+    padding: 10px 30px;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.form-inline .form-control {
+  margin-right: 6px;
+}
+
+.cta {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    font-family: Georgia;
+    color: #343A40;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.cta a {
+    color: #49C2F0;
+    font-size: 1em;
+}
+
+.cta a:hover {
+    color: #343A40;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.services-img {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.services-section {
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.services-heading {
+    font-size: 1.2em;
+    text-align: center;
+    font-family: Trebuchet-MS;
+}
+
+.services-description {
+    text-align: justify;
+}
+
+.services {
+    margin-top: 10px;
+}
+
+.above-header {
+    text-align: center;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 5px;
+    background-color: #B7410E;
+}
+
+.above-header a {
+    color: #49C2F0;
+
+}
+
+.above-header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 20px;
+    color: #49C2F0;
+}
+
+.footer a {
+   color: #49C2F0;
+}
+
+.footer a:hover {
+     color: white;
+     text-decoration: none;
+}
