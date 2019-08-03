@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
         <link href="styles.css" rel="stylesheet">
-        <title>My Webpage</title>
+        <title>Financial Planning Services</title>
     </head>
     <body>
       <div class="above-header">
@@ -22,16 +21,13 @@
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Services
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Women and Families</a>
-                <a class="dropdown-item" href="#">Small Businesses</a>
+                <a class="dropdown-item" href="women-and-families.html">Women and Families</a>
+                <a class="dropdown-item" href="small-business.html">Small Businesses</a>
               </div>
             </li>
             <li class="nav-item">
@@ -42,39 +38,30 @@
       </nav>
 
       <div class="container-fluid">
-
-            <div class="row ">
-              <div class="col-sm-12 top-section  landing-inner">
-                <!--<div class="top-section">-->
-
-                <!--    <div class="landing-inner">-->
-                <div class="dark-overlay">
-                <p><br><br><br></p>
-                <h1>Financial Planning Services</h1>
-                <h4 class="h4-hero">
-                  Let's talk about your financial goals <br> and how to achieve them quicker!
-                </h4>
-                <p><br><br></p>
-                </div>
-            <!-- </div>-->
-            <!--</div>-->
+        <div class="row">
+          <div class="col-lg-12 top-section landing-inner" id="hero-section-home">
+            <div class="dark-overlay">
+              <p><br><br><br></p>
+              <h1>Financial Planning Services</h1>
+              <h4 class="h4-hero">
+                Let's talk about your financial goals <br> and how to achieve them quicker!
+              </h4>
+              <p><br><br></p>
+              </div>
           </div>
         </div>
 
-
-        <div class="subscribe">
+        <div class="news-box">
           <div class="row ">
-            <div class="col-sm-6">
+              <div class="col-lg-6 col-sm-12 news">
               <span>Subscribe to Our Newsletter</span>
             </div>
-            <div class="col-sm-6">
-
-              <form class="form-inline">
-                 <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
-                 <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="col-lg-6 col-sm-12 ">
+              <form class="form-inline news">
+                <input type="email" class="form-control" placeholder="Enter email">
+                <button type="submit" class="btn btn-primary">Submit</button>
               </form>
             </div>
-
           </div>
         </div>
 
@@ -86,34 +73,45 @@
         <hr style="width: 30%; margin-bottom: 30px;">
         </div>
         <div class="row">
-          <div class="col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-12 col-sm-12">
             <div class="services-section">
-              <img class="services-img" src="./img/financial-planning-near-me-opt.jpg"/>
+              <div class="text-center">
+                <img class="services-img" alt="financial planning" src="/images/financial-planning-near-me-opt.jpg"/>
+              </div>
               <p></p>
               <p class="services-heading">Financial Planning for Women & Families</p>
               <hr style="width: 30%">
-              <p class="services-description">The majority of women will be faced with the responsibility of managing finances for themselves and their families. We help women care for themselves and their families.<br><a href="/women-and-families.html">Read More...</a></p>
+              <p class="services-description">
+                The majority of women are faced with the responsibility of managing finances for themselves and their families. We help women care for themselves and their families.<br><a href="/women-and-families.html">Read More...</a>
+              </p>
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-12 col-sm-12">
             <div class="services-section">
-              <img class="services-img" src="./img/smal-business-2.jpg"/>
+              <div class="text-center">
+                <img class="services-img" alt="small business" src="/images/smal-business-2.jpg">
+              </div>
               <p></p>
               <p class="services-heading">Financial Planning for Small Businesses</p>
               <hr style="width: 30%">
-              <p class="services-description">There are several practical steps that business owners can follow to establish a successful financial plan, such as Control Costs, Manage Liquidity and more. <br><a href="/small-business.html">Read More...</a>
-</p>
+              <p class="services-description">
+                There are several practical steps that business owners can follow to establish a successful financial plan, such as Control Costs, Manage Liquidity and more. <br><a href="/small-business.html">Read More...</a>
+              </p>
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-12 col-sm-12">
             <div class="services-section">
-              <img class="services-img" src="./img/financial-planning-seminars-1.jpg"/>
+              <div class="text-center">
+                <img class="services-img" alt="financial planning seminar" src="/images/financial-planning-seminars-1.jpg"/>
+              </div>
               <p></p>
               <p class="services-heading">Financial Planning Seminars</p>
               <hr style="width: 30%">
-              <p class="services-description">We organise a number of educative financial planning seminars that help our clients to come up with a desirable solution. Keep an eye on our upcoming seminar which will be announced soon! </p>
+              <p class="services-description">
+                We organise a number of educative financial planning seminars that help our clients to come up with a desirable solution. Keep an eye on our upcoming seminar which will be announced soon!
+              </p>
             </div>
           </div>
         </div>
@@ -121,21 +119,19 @@
 
         <div class="footer bg-dark">
           <div class="row">
-            <div class="col-md-4 col-sm-12">
+            <div class="col-lg-4  col-sm-12 footer-inner">
              © Financial Planning Services 2019
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12 footer-inner">
              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> &emsp;
              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> &emsp;
              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12 footer-inner">
              <a href="/women-and-families.html">Women & Families</a>  &emsp; <a href="small-business.html">Small Businesses</a>
             </div>
           </div>
         </div>
-
-
       </div>
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
